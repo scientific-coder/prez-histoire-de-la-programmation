@@ -1,0 +1,16 @@
+body { font-family: "futura-pt", sans-serif }
+h1, h2, h3, h4, h5, h6 { font-weight: bold }
+img { max-height:600px; max-width:900px }
+.content ul li { padding-left: 0; margin-left:0; font-size: 40px}
+.content ul li { list-style-type:none; overflow:hidden}
+.content ul { padding:0 }
+.content { padding: 1em 3em;}
+.content pre, .content p { margin: 1em 0 }
+.slide.cover {
+	background:hsl(15,90%,40%);
+	color:hsl(0,0%,98%);
+	text-shadow: 1px 1px black
+}
+iframe { min-height:500px; width:100% }
+table { font-size: 24px }
+h1 { font-size: 60px }
