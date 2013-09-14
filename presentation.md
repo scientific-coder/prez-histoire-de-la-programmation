@@ -375,7 +375,7 @@ C INPUT ERROR DISPAY ERROR OUTPUT CODE 1 IN JOB CONTROL LISTING
 
 .notes desc de programme en détail suffisant pour faire ce qu'il doit faire, toujours un programme
 .notes raising level of abstraction
-
+.notes Language pour faire des calculs scientifiques : on peut enfin écrire directement les formules mathématiques en notation usuelle.
 .notes * for multiplications
 
 !SLIDE
@@ -709,3 +709,9 @@ end
 !SLIDE
 [Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
 ![Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/images/2007-cover-shut.jpg)
+
+
+.notes Depuis les débuts (COBOL) on a essayé de pouvoir se passer de programmeurs : fail
+.notes Mais on a réussi à rendre la programmation accessible à des non spécialistes (FORTRAN était utilisé par des scientifiques qui n'étaient pas informaticiens de formation), cf. aussi formules dans les tableurs.
+.notes Mettre en lien avec le "Worse is Better" : pas besoin de faire des programmes parfaits (L'auteur de Linux aurait eu une mauvaise note de Tanenbaum et j'aurais mis une mauvaise note technique à Facebook :) )
+.notes -> Just Do It !
