@@ -35,16 +35,16 @@ main()
 Tables                | tour          | « téléphone »
 --------------------- |:-------------:| ----------------:
 volume                | 40 litres     | 0,1 litres
-procésseur            | 0,1 GHz       | 4 x 1,5 GHz
+processeur            | 0,1 GHz       | 4 x 1,5 GHz
 mémoire vive          | 8 Mo          | 2048 Mo
 espace disque         | 0,85 Go       | 16 Go
-autres fonctionalités | ...           | * fonctionnalité téléphone
+autres fonctionnalités | ...           | * fonctionnalité téléphone
                       |               | * accéléromètre
                       |               | * baromètre
                       |               | * écran tactile
                       |               | * résolution de 1280×768 px
                       |               | * 2 caméras
-                      |               | * camescope vidéo
+                      |               | * caméscope vidéo
                       |               | * GPS
                       |               | * Internet par l'air ?!
                       |               | * sur batterie, chargement par induction
@@ -54,7 +54,7 @@ autres fonctionalités | ...           | * fonctionnalité téléphone
 
 * histoire méconnue
 * personnes qui devraient comprendre la valeur de nouvelles technos sont souvent les derniers
-* utisation de technos obsolètes
+* utilisation de technos obsolètes
 * parfois un pas un avant, parfois un pas en arrière
 * mythe de l'inévitabilité
 
@@ -66,7 +66,7 @@ autres fonctionalités | ...           | * fonctionnalité téléphone
 ![métier Jacquard](http://upload.wikimedia.org/wikipedia/commons/b/b6/Jacquard_loom_p1040320.jpg)
 
 .notes adapté depuis piano mécanique
-.notes chaque carte represente un motif sur une ligne de ce qui est tissé
+.notes chaque carte représente un motif sur une ligne de ce qui est tissé
 .notes 10x plus productif
 .notes sabotage industriel
 .notes Babbage, Lovelace, I/O
@@ -157,7 +157,7 @@ autres fonctionalités | ...           | * fonctionnalité téléphone
  BSOUT = $FFD2            ;kernel ROM sub, write to current output device
  ;
          LDX #$00         ;starting index in .X register
- ; 
+ ;
  LOOP    LDA MSG,X        ;read message text
          BEQ LOOPEND      ;end of text
  ;
@@ -190,7 +190,7 @@ autres fonctionalités | ...           | * fonctionnalité téléphone
 .notes clavier
 
 !SLIDE
-# Traitement par log vs Temps partagé
+# Traitement par lots vs Temps partagé
 .notes trop cher pour programmeurs à la console
 .notes batch mode, "submit"
 .notes cartes + tray
@@ -228,7 +228,7 @@ ASCII -> Unicode -> UTF-8
 .notes mainframe ignorait
 .notes 10 char/s
 .notes CR + LF, carridge return, line feed, teletype
-.notes intéropérabilité, aggreement mutellement dévorable, CRLF
+.notes interopérabilité, aggreement mutellement dévorable, CRLF
 .notes HTTP
 
 !SLIDE
@@ -375,7 +375,7 @@ C INPUT ERROR DISPAY ERROR OUTPUT CODE 1 IN JOB CONTROL LISTING
 
 .notes desc de programme en détail suffisant pour faire ce qu'il doit faire, toujours un programme
 .notes raising level of abstraction
-
+.notes Language pour faire des calculs scientifiques : on peut enfin écrire directement les formules mathématiques en notation usuelle.
 .notes * for multiplications
 
 !SLIDE
@@ -474,7 +474,7 @@ END'
 * ALGOL -> ALGOL 68
 
 !SLIDE
-# Simplication
+# Simplification
 
 * CPL (Combined programming Language) ->
 * ALGOL -> Pascal
@@ -709,3 +709,9 @@ end
 !SLIDE
 [Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
 ![Why's (Poignant) Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/images/2007-cover-shut.jpg)
+
+
+.notes Depuis les débuts (COBOL) on a essayé de pouvoir se passer de programmeurs : fail
+.notes Mais on a réussi à rendre la programmation accessible à des non spécialistes (FORTRAN était utilisé par des scientifiques qui n'étaient pas informaticiens de formation), cf. aussi formules dans les tableurs.
+.notes Mettre en lien avec le "Worse is Better" : pas besoin de faire des programmes parfaits (L'auteur de Linux aurait eu une mauvaise note de Tanenbaum et j'aurais mis une mauvaise note technique à Facebook :) )
+.notes -> Just Do It !
