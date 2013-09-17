@@ -7,6 +7,13 @@
 ![généalogie des langages de programmation](http://www.georgehernandez.com/h/xComputers/Programming/Media/tongues-cleaner.png)
 
 !SLIDE
+# Crédits
+
+Douglas Crockford
+
+![Douglas Crockford](http://upload.wikimedia.org/wikipedia/commons/e/ef/Douglas_Crockford.jpg)
+
+!SLIDE
 ## Hello World!
 ```c
 #include<stdio.h>
@@ -30,27 +37,25 @@ main()
 ![Nexus 4](http://gigaom2.files.wordpress.com/2012/11/nexus-4-in-hand-e1352832035571.jpg)
 
 !SLIDE
-## Comparons
-
-Tables                | tour          | « téléphone »
---------------------- |:-------------:| ----------------:
-volume                | 40 litres     | 0,1 litres
-processeur            | 0,1 GHz       | 4 x 1,5 GHz
-mémoire vive          | 8 Mo          | 2048 Mo
-espace disque         | 0,85 Go       | 16 Go
-autres fonctionnalités | ...           | * fonctionnalité téléphone
-                      |               | * accéléromètre
-                      |               | * baromètre
-                      |               | * écran tactile
-                      |               | * résolution de 1280×768 px
-                      |               | * 2 caméras
-                      |               | * caméscope vidéo
-                      |               | * GPS
-                      |               | * Internet par l'air ?!
-                      |               | * sur batterie, chargement par induction
+# Tour vs Nexus 4
+spécs                 | tour          | « téléphone »                             | ratio
+--------------------- |:-------------:| -----------------------------------------:|----------
+volume                | 40 litres     | 0,1 litres                                | /40
+procésseur            | 0,1 GHz       | 4 x 1,5 GHz                               | x60
+mémoire vive          | 8 Mo          | 2048 Mo                                   | x256
+espace disque         | 0,85 Go       | 16 Go                                     | ~x20
+autres fonctionalités | ...           | * fonctionnalité téléphone                |
+                      |               | * accéléromètre                           |
+                      |               | * baromètre                               |
+                      |               | * écran tactile                           |
+                      |               | * résolution de 1280×768 px               |
+                      |               | * 2 caméras                               |
+                      |               | * camescope vidéo                         |
+                      |               | * GPS                                     |
+                      |               | * Internet par l'air ?!                   |
+                      |               | * sur batterie, chargement par induction  |
 
 !SLIDE
-## beaucoup d'histoire
 
 * histoire méconnue
 * personnes qui devraient comprendre la valeur de nouvelles technos sont souvent les derniers
@@ -58,8 +63,13 @@ autres fonctionnalités | ...           | * fonctionnalité téléphone
 * parfois un pas un avant, parfois un pas en arrière
 * mythe de l'inévitabilité
 
-!SLIDE cover
-# l'Histoire de la programmation en 1? h
+!SLIDE cover #hello-world execute
+```js
+container = document.getElementById('hello-world').getElementsByClassName('content')[0];
+el = document.createElement('h1');
+el.appendChild(document.createTextNode("L'histoire de la programmation en 1? h"));
+container.appendChild(el)
+```
 
 !SLIDE
 # le métier Jacquard (1801)
@@ -465,6 +475,9 @@ END'
 !SLIDE
 ![GOTO](http://img.docstoccdn.com/thumb/orig/22207076.png)
 
+!SLIDE
+![BD xkcd sur GOTO](http://www.terminally-incoherent.com/blog/wp-content/uploads/2007/07/goto_1.Png)
+
 .notes GOTO considered harmful
 .notes programmers were against it
 
@@ -515,10 +528,12 @@ FORTRAN BCPL  Pascal
 .notes programme dans milions de foyers
 
 !SLIDE
-# Orientation object
+# Orientation objet
 
 * ALGOL -> Simula -> Smalltalk
 * Alan Kay, Xerox Park
+
+![Alan Kay](http://upload.wikimedia.org/wikipedia/commons/2/2c/Alan_Kay_and_the_prototype_of_Dynabook,_pt._5_(3010032738).jpg)
 
 !SLIDE
 ![Dynabook](http://facweb.cs.depaul.edu/sgrais/images/iP_Project/dynabook-01.gif)
