@@ -40,7 +40,7 @@ main()
 # Tour vs Nexus 4
 spécs                 | tour          | « téléphone »                             | ratio
 --------------------- |:-------------:| -----------------------------------------:|----------
-volume                | 40 litres     | 0,1 litres                                | /40
+volume                | 40 litres     | 0,1 litres                                | /400
 procésseur            | 0,1 GHz       | 4 x 1,5 GHz                               | x60
 mémoire vive          | 8 Mo          | 2048 Mo                                   | x256
 espace disque         | 0,85 Go       | 16 Go                                     | ~x20
